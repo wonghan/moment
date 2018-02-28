@@ -34,7 +34,7 @@ var data = [{
     text: '全面读书日',
     pics: [],
     share: {
-      pic: 'http://coding.imweb.io/img/p3/transition-hover.jpg',
+      pic: './img/transition-hover.jpg',
       text: '飘洋过海来看你'
     },
     timeString: '50分钟前'
@@ -52,7 +52,7 @@ var data = [{
   content: {
     type: 2, // 单图片消息
     text: '很好的色彩',
-    pics: ['http://coding.imweb.io/img/default/k-2.jpg'],
+    pics: ['./img/k-2.jpg'],
     share: {},
     timeString: '一小时前'
   },
