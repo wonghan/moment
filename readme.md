@@ -2,18 +2,18 @@
 
 
 ## 项目概述
-使用JQuary，实现一个基本微信朋友圈的界面
+使用JQuery，实现一个基本微信朋友圈的界面
 
-[](__split__)
-
+## 项目展示
+https://wonghan.github.io/moment/
 
 ### 项目结构
-- moments.html 页面 HTML 
-- style.css 样式基本样式
+- index.html 页面 HTML 
+- style.css 页面样式
+- reset.css 基本样式
 - app.js 页面逻辑 （提供了基础的逻辑函数和页面数据变量 `data`）
 - img 存放页面展示所需的图片
 - demo 存放文档展示的效果图
-- message.html 多图片消息的html结构的示例
 - readme.md 项目说明文档
 
 
@@ -23,19 +23,19 @@
 #### 1.1、多图片消息 (消息 type 为0)
 
 
-![](http://coding.imweb.io/img/project/moments/type1.png)
+![](./demo/type1.png)
 
 #### 1.2、分享消息  (消息 type 为1)
 
-![](http://coding.imweb.io/img/project/moments/type2.png)
+![](./demo/type2.png)
 
 #### 1.3、单图片消息 (消息 type 为2)
 
-![](http://coding.imweb.io/img/project/moments/type3.png)
+![](./demo/type3.png)
 
 #### 1.4、无图片消息 (消息 type 为3)
 
-![](http://coding.imweb.io/img/project/moments/type4.png)
+![](./demo/type4.png)
 
 
 
@@ -153,17 +153,17 @@ comments 数组中每一项对象都代表着评论的信息，其组成如下�
 
 具体效果如下：
 
-![](http://coding.imweb.io/img/project/moments/replypanel.gif)
+![](./demo/replypanel.gif)
 
 
 ### 4、实现点赞功能
 - 对于未点赞的信息，点击回复按钮，展现点赞的按钮
 
-![](http://coding.imweb.io/img/project/moments/icon-like.png)
+![](./demo/icon-like.png)
 
 - 对于已点赞的信息，点击回复按钮，展现取消点赞的按钮
 
-![](http://coding.imweb.io/img/project/moments/icon-unlike.png)
+![](./demo/icon-unlike.png)
 
 - 点击点赞按钮，完成点赞
 - 点击取消按钮，取消点赞
@@ -171,7 +171,7 @@ comments 数组中每一项对象都代表着评论的信息，其组成如下�
 具体效果如下：
 
 
-![](http://coding.imweb.io/img/project/moments/like.gif)
+![](./demo/like.gif)
 
 
 ### 5、实现增加评论功能
@@ -182,7 +182,7 @@ comments 数组中每一项对象都代表着评论的信息，其组成如下�
 
 具体效果如下：
 
-![](http://coding.imweb.io/img/project/moments/comment.gif)
+![](./demo/comment.gif)
 
 
 ### 6、点击图片放大功能
@@ -191,5 +191,5 @@ comments 数组中每一项对象都代表着评论的信息，其组成如下�
 
 具体效果如下：
 
-![](http://coding.imweb.io/img/project/moments/pic.gif)
+![](./demo/pic.gif)
 

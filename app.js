@@ -352,7 +352,7 @@ function toggleInputBtn(type){
     $inputBtn.attr('disabled','disabled');
   }
 }
-$('.moments-item').on('click','#input-btn',function(){
+$('body').on('click','#input-btn',function(){
   if($replyComment.html()){
     $replyComment.append('<div class="comment-item"><a class="reply-who" href="#">'+userName+'</a>：'+$inputText.val()+'</div>');
   }else{
